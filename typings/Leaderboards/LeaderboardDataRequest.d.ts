@@ -44,12 +44,12 @@ declare namespace SparkRequests {
          * The challenge instance to get the leaderboard data for
          * @Required No
          */
-        challengeInstanceId: string;
+        challengeInstanceId?: string;
         /**
          * The default behaviour on a social request is to error if the player has no friends (NOTSOCIAL).  Set this flag to suppress that error and return the player’s leaderboard entry instead.
          * @Required No
          */
-        dontErrorOnNotSocial: boolean;
+        dontErrorOnNotSocial?: boolean;
         /**
          * The number of items to return in a page (default=50)
          * @Required Yes
@@ -59,47 +59,47 @@ declare namespace SparkRequests {
          * A friend id or an array of friend ids to use instead of the player’s social friends
          * @Required No
          */
-        friendIds: string[];
+        friendIds?: string[];
         /**
          * Number of entries to include from head of the list
          * @Required No
          */
-        includeFirst: number;
+        includeFirst?: number;
         /**
          * Number of entries to include from tail of the list
          * @Required No
          */
-        includeLast: number;
+        includeLast?: number;
         /**
          * Returns the leaderboard excluding the player’s social friends
          * @Required No
          */
-        inverseSocial: boolean;
+        inverseSocial?: boolean;
         /**
          * The short code of the leaderboard
          * @Required No
          */
-        leaderboardShortCode: string;
+        leaderboardShortCode?: string;
         /**
          * The offset into the set of leaderboards returned
          * @Required No
          */
-        offset: number;
+        offset?: number;
         /**
          * If True returns a leaderboard of the player’s social friends
          * @Required No
          */
-        social: boolean;
+        social?: boolean;
         /**
          * The IDs of the teams you are interested in
          * @Required No
          */
-        teamIds: string[];
+        teamIds?: string[];
         /**
          * The type of team you are interested in
          * @Required No
          */
-        teamTypes: string[];
+        teamTypes?: string[];
     }
     /**
      * A response containing leaderboard data
