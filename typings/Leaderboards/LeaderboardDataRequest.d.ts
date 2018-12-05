@@ -79,7 +79,7 @@ declare namespace SparkRequests {
          * The short code of the leaderboard
          * @Required No
          */
-        leaderboardShortCode?: string;
+        leaderboardShortCode: string;
         /**
          * The offset into the set of leaderboards returned
          * @Required No
