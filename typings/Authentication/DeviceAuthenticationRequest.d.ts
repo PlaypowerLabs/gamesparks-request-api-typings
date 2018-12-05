@@ -40,12 +40,12 @@ declare namespace SparkRequests {
          * The device model
          * @Required No
          */
-        deviceModel: string;
+        deviceModel?: string;
         /**
          * The device name
          * @Required No
          */
-        deviceName: string;
+        deviceName?: string;
         /**
          * An indicator of the device platform, should be IOS, ANDROID, WP8 or W8
          * @Required Yes
@@ -55,22 +55,22 @@ declare namespace SparkRequests {
          * The device type
          * @Required No
          */
-        deviceType: string;
+        deviceType?: string;
         /**
          * An optional displayname for the player
          * @Required No
          */
-        displayName: string;
+        displayName?: string;
         /**
          * The device type
          * @Required No
          */
-        operatingSystem: string;
+        operatingSystem?: string;
         /**
          * An optional segment configuration for this request.
          * @Required No
          */
-        segments: JSON;
+        segments?: JSON;
     }
     /**
      * A response containing the auth token
