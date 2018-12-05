@@ -43,7 +43,7 @@ declare namespace SparkRequests {
          * The challenge instance to get the leaderboard data for
          * @Required No
          */
-        challengeInstanceId: string;
+        challengeInstanceId?: string;
         /**
          * An optional filter on the customIds.
          * @Required No
